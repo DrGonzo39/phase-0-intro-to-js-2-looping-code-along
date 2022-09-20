@@ -1,1 +1,12 @@
-// Code your solutions in this file
+function writeCards(name,event) {
+    const message = []
+    for (let i = 0; i < name.length; i++)  {
+        message.push(`Thank you, ${name[i]}, for the wonderful ${event} gift!`);
+    }
+    return message
+};
+function countDown(numb) {
+    while (numb >= 0) {
+        console.log(numb--);
+    }
+};
